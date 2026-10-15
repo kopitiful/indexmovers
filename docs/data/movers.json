@@ -1,0 +1,212 @@
+{
+  "last_update": "2026-10-15T21:01:30.751810+00:00",
+  "indices": {
+    "dax": {
+      "label": "DAX",
+      "currency": "EUR",
+      "constituents_count": 40,
+      "winners": [
+        {
+          "ticker": "G24.DE",
+          "name": "Scout24",
+          "change_pct": 11.3,
+          "price": 79.3
+        },
+        {
+          "ticker": "RHM.DE",
+          "name": "Rheinmetall",
+          "change_pct": 9.74,
+          "price": 1026.0
+        },
+        {
+          "ticker": "SY1.DE",
+          "name": "Symrise",
+          "change_pct": 9.3,
+          "price": 99.4
+        },
+        {
+          "ticker": "ZAL.DE",
+          "name": "Zalando",
+          "change_pct": 9.03,
+          "price": 24.87
+        },
+        {
+          "ticker": "SAP.DE",
+          "name": "SAP",
+          "change_pct": 9.01,
+          "price": 201.25
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "IFX.DE",
+          "name": "Infineon Technologies",
+          "change_pct": -10.92,
+          "price": 52.47
+        },
+        {
+          "ticker": "ENR.DE",
+          "name": "Siemens Energy",
+          "change_pct": -7.12,
+          "price": 132.36
+        },
+        {
+          "ticker": "DTE.DE",
+          "name": "Deutsche Telekom",
+          "change_pct": -4.62,
+          "price": 25.59
+        },
+        {
+          "ticker": "DBK.DE",
+          "name": "Deutsche Bank",
+          "change_pct": -1.82,
+          "price": 29.12
+        },
+        {
+          "ticker": "CBK.DE",
+          "name": "Commerzbank",
+          "change_pct": 0.16,
+          "price": 37.7
+        }
+      ]
+    },
+    "estoxx50": {
+      "label": "Euro Stoxx 50",
+      "currency": "EUR",
+      "constituents_count": 50,
+      "winners": [
+        {
+          "ticker": "WKL.AS",
+          "name": "Wolters Kluwer",
+          "change_pct": 13.43,
+          "price": 81.42
+        },
+        {
+          "ticker": "RHM.DE",
+          "name": "Rheinmetall",
+          "change_pct": 9.74,
+          "price": 1026.0
+        },
+        {
+          "ticker": "ADYEN.AS",
+          "name": "Adyen",
+          "change_pct": 9.4,
+          "price": 942.6
+        },
+        {
+          "ticker": "SAP.DE",
+          "name": "SAP",
+          "change_pct": 9.01,
+          "price": 201.25
+        },
+        {
+          "ticker": "OR.PA",
+          "name": "L'Oréal",
+          "change_pct": 8.77,
+          "price": 406.85
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "IFX.DE",
+          "name": "Infineon Technologies",
+          "change_pct": -10.92,
+          "price": 52.47
+        },
+        {
+          "ticker": "ASML.AS",
+          "name": "ASML Holding",
+          "change_pct": -10.2,
+          "price": 1464.2
+        },
+        {
+          "ticker": "ENR.DE",
+          "name": "Siemens Energy",
+          "change_pct": -7.12,
+          "price": 132.36
+        },
+        {
+          "ticker": "DTE.DE",
+          "name": "Deutsche Telekom",
+          "change_pct": -4.62,
+          "price": 25.59
+        },
+        {
+          "ticker": "DBK.DE",
+          "name": "Deutsche Bank",
+          "change_pct": -1.82,
+          "price": 29.12
+        }
+      ]
+    },
+    "sp500": {
+      "label": "S&P 500",
+      "currency": "USD",
+      "constituents_count": 503,
+      "winners": [
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "change_pct": 20.05,
+          "price": 236.5
+        },
+        {
+          "ticker": "CCI",
+          "name": "Crown Castle",
+          "change_pct": 16.13,
+          "price": 80.0
+        },
+        {
+          "ticker": "EL",
+          "name": "Estée Lauder Companies (The)",
+          "change_pct": 13.65,
+          "price": 107.19
+        },
+        {
+          "ticker": "HUM",
+          "name": "Humana",
+          "change_pct": 11.64,
+          "price": 432.2
+        },
+        {
+          "ticker": "EFX",
+          "name": "Equifax",
+          "change_pct": 10.8,
+          "price": 161.26
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "SKYD",
+          "name": "Skydance Corporation",
+          "change_pct": -21.77,
+          "price": 7.26
+        },
+        {
+          "ticker": "SMCI",
+          "name": "Supermicro",
+          "change_pct": -17.96,
+          "price": 35.09
+        },
+        {
+          "ticker": "DELL",
+          "name": "Dell Technologies",
+          "change_pct": -17.61,
+          "price": 473.39
+        },
+        {
+          "ticker": "HPE",
+          "name": "Hewlett Packard Enterprise",
+          "change_pct": -17.42,
+          "price": 58.63
+        },
+        {
+          "ticker": "COHR",
+          "name": "Coherent Corp.",
+          "change_pct": -17.12,
+          "price": 250.6
+        }
+      ]
+    }
+  }
+}

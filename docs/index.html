@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index-Gewinner & Verlierer</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page-plane:     #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --border:         rgba(11,11,11,0.10);
+    --delta-up:       #006300;
+    --delta-down:     #d03b3b;
+    --bar-up-bg:      rgba(12,163,12,0.14);
+    --bar-down-bg:    rgba(208,59,59,0.14);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page-plane:     #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --border:         rgba(255,255,255,0.10);
+      --delta-up:       #0ca30c;
+      --delta-down:     #d03b3b;
+      --bar-up-bg:      rgba(12,163,12,0.18);
+      --bar-down-bg:    rgba(208,59,59,0.18);
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page-plane);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 32px 20px 56px;
+  }
+  header {
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 4px;
+  }
+  .sub {
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+  .meta {
+    color: var(--text-muted);
+    font-size: 12px;
+    margin-top: 6px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 18px 8px;
+  }
+  .card h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 2px;
+  }
+  .card .count {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 14px 0 6px;
+  }
+  .section-label.up { color: var(--delta-up); }
+  .section-label.down { color: var(--delta-down); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  tr + tr td {
+    border-top: 1px solid var(--gridline);
+  }
+  td {
+    padding: 7px 0;
+    vertical-align: middle;
+  }
+  td.rank {
+    color: var(--text-muted);
+    width: 18px;
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+  }
+  td.name {
+    overflow: hidden;
+  }
+  .ticker {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .company {
+    color: var(--text-secondary);
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+  }
+  td.change {
+    text-align: right;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    width: 62px;
+  }
+  .change.up { color: var(--delta-up); }
+  .change.down { color: var(--delta-down); }
+
+  .bar-row { position: relative; }
+  .bar-track {
+    position: absolute;
+    bottom: 0; left: 0;
+    height: 3px;
+    border-radius: 2px;
+  }
+  .bar-track.up { background: var(--bar-up-bg); }
+  .bar-track.down { background: var(--bar-down-bg); }
+
+  footer {
+    margin-top: 28px;
+    color: var(--text-muted);
+    font-size: 11px;
+  }
+  .error {
+    color: var(--delta-down);
+    font-size: 13px;
+    padding: 20px 0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Index-Gewinner &amp; -Verlierer</h1>
+    <div class="sub">Top 5 Wochengewinner und -verlierer je Index &mdash; DAX, Euro Stoxx 50, S&amp;P 500</div>
+    <div class="meta" id="meta">Lade Daten&hellip;</div>
+  </header>
+
+  <div class="grid" id="grid"></div>
+
+  <footer>Kurse via Yahoo Finance, Index-Zusammensetzung via Wikipedia. Wöchentliche Veränderung = letzter Schlusskurs vs. Schlusskurs vor 5 Handelstagen. Keine Anlageberatung.</footer>
+</div>
+
+<script>
+function fmtPct(v) {
+  const sign = v > 0 ? "+" : "";
+  return sign + v.toFixed(2) + "%";
+}
+
+function maxAbs(rows) {
+  return Math.max(1, ...rows.map(r => Math.abs(r.change_pct)));
+}
+
+function rowsHtml(rows, direction, scaleMax) {
+  if (!rows.length) return '<tr><td colspan="3" style="color:var(--text-muted);font-size:12px;padding:8px 0;">keine Daten</td></tr>';
+  return rows.map((r, i) => {
+    const pct = Math.min(100, Math.abs(r.change_pct) / scaleMax * 100);
+    return `
+      <tr>
+        <td class="rank">${i + 1}</td>
+        <td class="name bar-row">
+          <div class="ticker">${r.ticker}</div>
+          <div class="company">${r.name}</div>
+          <div class="bar-track ${direction}" style="width:${pct}%"></div>
+        </td>
+        <td class="change ${direction}">${fmtPct(r.change_pct)}</td>
+      </tr>`;
+  }).join("");
+}
+
+function cardHtml(idx) {
+  const scaleMax = maxAbs([...idx.winners, ...idx.losers]);
+  return `
+    <div class="card">
+      <h2>${idx.label}</h2>
+      <div class="count">${idx.constituents_count} Werte ausgewertet &middot; ${idx.currency}</div>
+
+      <div class="section-label up">Gewinner</div>
+      <table><tbody>${rowsHtml(idx.winners, "up", scaleMax)}</tbody></table>
+
+      <div class="section-label down">Verlierer</div>
+      <table><tbody>${rowsHtml(idx.losers, "down", scaleMax)}</tbody></table>
+    </div>`;
+}
+
+fetch("data/movers.json")
+  .then(r => r.json())
+  .then(data => {
+    const order = ["dax", "estoxx50", "sp500"];
+    const grid = document.getElementById("grid");
+    grid.innerHTML = order
+      .filter(k => data.indices[k])
+      .map(k => cardHtml(data.indices[k]))
+      .join("");
+
+    const d = new Date(data.last_update);
+    document.getElementById("meta").textContent =
+      "Stand: " + d.toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) +
+      ", " + d.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" }) + " UTC";
+  })
+  .catch(err => {
+    document.getElementById("grid").innerHTML = '<div class="error">Daten konnten nicht geladen werden.</div>';
+    document.getElementById("meta").textContent = "";
+    console.error(err);
+  });
+</script>
+</body>
+</html>
