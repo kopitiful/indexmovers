@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-15T21:09:17.714840+00:00",
+  "last_update": "2026-10-17T00:02:57.602887+00:00",
   "indices": {
     "dax": {
       "label": "DAX",
@@ -126,16 +126,16 @@
           "price": 132.36
         },
         {
+          "ticker": "NDA-FI.HE",
+          "name": "Nordea",
+          "change_pct": -6.23,
+          "price": 15.65
+        },
+        {
           "ticker": "DTE.DE",
           "name": "Deutsche Telekom",
           "change_pct": -4.62,
           "price": 25.59
-        },
-        {
-          "ticker": "DBK.DE",
-          "name": "Deutsche Bank",
-          "change_pct": -1.82,
-          "price": 29.12
         }
       ]
     },
