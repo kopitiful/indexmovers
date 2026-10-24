@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-17T13:31:02.858612+00:00",
+  "last_update": "2026-10-24T00:07:58.007928+00:00",
   "indices": {
     "dax": {
       "label": "DAX",
@@ -7,66 +7,66 @@
       "constituents_count": 40,
       "winners": [
         {
-          "ticker": "RHM.DE",
-          "name": "Rheinmetall",
-          "change_pct": 16.09,
-          "price": 1090.2
+          "ticker": "QIA.DE",
+          "name": "Qiagen",
+          "change_pct": 9.25,
+          "price": 44.94
         },
         {
           "ticker": "G24.DE",
           "name": "Scout24",
-          "change_pct": 10.84,
-          "price": 80.3
+          "change_pct": 8.07,
+          "price": 85.7
         },
         {
-          "ticker": "SY1.DE",
-          "name": "Symrise",
-          "change_pct": 7.81,
-          "price": 99.44
+          "ticker": "SAP.DE",
+          "name": "SAP",
+          "change_pct": 7.01,
+          "price": 215.35
         },
         {
-          "ticker": "BMW.DE",
-          "name": "BMW",
-          "change_pct": 7.13,
-          "price": 57.06
+          "ticker": "ZAL.DE",
+          "name": "Zalando",
+          "change_pct": 5.47,
+          "price": 26.23
         },
         {
-          "ticker": "FRE.DE",
-          "name": "Fresenius",
-          "change_pct": 6.42,
-          "price": 45.08
+          "ticker": "EOAN.DE",
+          "name": "E.ON",
+          "change_pct": 4.67,
+          "price": 18.36
         }
       ],
       "losers": [
         {
-          "ticker": "IFX.DE",
-          "name": "Infineon Technologies",
-          "change_pct": -10.99,
-          "price": 52.39
-        },
-        {
           "ticker": "ENR.DE",
           "name": "Siemens Energy",
-          "change_pct": -7.14,
-          "price": 134.98
+          "change_pct": -7.68,
+          "price": 122.2
         },
         {
-          "ticker": "DBK.DE",
-          "name": "Deutsche Bank",
-          "change_pct": -1.97,
-          "price": 29.33
+          "ticker": "MTX.DE",
+          "name": "MTU Aero Engines",
+          "change_pct": -5.72,
+          "price": 332.8
         },
         {
           "ticker": "SIE.DE",
           "name": "Siemens",
-          "change_pct": -0.53,
-          "price": 270.65
+          "change_pct": -5.52,
+          "price": 255.7
         },
         {
-          "ticker": "PAH3.DE",
-          "name": "Porsche SE",
-          "change_pct": -0.36,
-          "price": 25.0
+          "ticker": "IFX.DE",
+          "name": "Infineon Technologies",
+          "change_pct": -4.93,
+          "price": 49.88
+        },
+        {
+          "ticker": "CBK.DE",
+          "name": "Commerzbank",
+          "change_pct": -4.88,
+          "price": 35.86
         }
       ]
     },
@@ -76,66 +76,66 @@
       "constituents_count": 50,
       "winners": [
         {
-          "ticker": "RHM.DE",
-          "name": "Rheinmetall",
-          "change_pct": 16.09,
-          "price": 1090.2
+          "ticker": "EL.PA",
+          "name": "EssilorLuxottica",
+          "change_pct": 19.13,
+          "price": 177.15
+        },
+        {
+          "ticker": "SAP.DE",
+          "name": "SAP",
+          "change_pct": 7.01,
+          "price": 215.35
         },
         {
           "ticker": "WKL.AS",
           "name": "Wolters Kluwer",
-          "change_pct": 8.69,
-          "price": 81.52
-        },
-        {
-          "ticker": "ABI.BR",
-          "name": "Anheuser-Busch InBev",
-          "change_pct": 7.66,
-          "price": 73.92
+          "change_pct": 6.61,
+          "price": 86.8
         },
         {
           "ticker": "BMW.DE",
           "name": "BMW",
-          "change_pct": 7.13,
-          "price": 57.06
+          "change_pct": 4.28,
+          "price": 57.48
         },
         {
-          "ticker": "ADYEN.AS",
-          "name": "Adyen",
-          "change_pct": 6.91,
-          "price": 947.3
+          "ticker": "ABI.BR",
+          "name": "Anheuser-Busch InBev",
+          "change_pct": 3.98,
+          "price": 75.82
         }
       ],
       "losers": [
         {
-          "ticker": "IFX.DE",
-          "name": "Infineon Technologies",
-          "change_pct": -10.99,
-          "price": 52.39
-        },
-        {
-          "ticker": "ASML.AS",
-          "name": "ASML Holding",
-          "change_pct": -7.77,
-          "price": 1477.2
+          "ticker": "SU.PA",
+          "name": "Schneider Electric",
+          "change_pct": -8.62,
+          "price": 235.75
         },
         {
           "ticker": "ENR.DE",
           "name": "Siemens Energy",
-          "change_pct": -7.14,
-          "price": 134.98
+          "change_pct": -7.68,
+          "price": 122.2
         },
         {
-          "ticker": "NDA-FI.HE",
-          "name": "Nordea",
-          "change_pct": -5.98,
-          "price": 15.73
+          "ticker": "BNP.PA",
+          "name": "BNP Paribas",
+          "change_pct": -7.16,
+          "price": 82.57
         },
         {
-          "ticker": "SU.PA",
-          "name": "Schneider Electric",
-          "change_pct": -4.92,
-          "price": 253.3
+          "ticker": "PRX.AS",
+          "name": "Prosus",
+          "change_pct": -5.62,
+          "price": 33.93
+        },
+        {
+          "ticker": "SIE.DE",
+          "name": "Siemens",
+          "change_pct": -5.52,
+          "price": 255.7
         }
       ]
     },
@@ -145,66 +145,66 @@
       "constituents_count": 503,
       "winners": [
         {
-          "ticker": "FICO",
-          "name": "Fair Isaac",
-          "change_pct": 15.52,
-          "price": 771.19
-        },
-        {
-          "ticker": "CTSH",
-          "name": "Cognizant",
-          "change_pct": 11.54,
-          "price": 66.03
-        },
-        {
-          "ticker": "ACN",
-          "name": "Accenture",
-          "change_pct": 10.74,
-          "price": 229.68
+          "ticker": "HAS",
+          "name": "Hasbro",
+          "change_pct": 19.12,
+          "price": 117.23
         },
         {
           "ticker": "EFX",
           "name": "Equifax",
-          "change_pct": 10.61,
-          "price": 161.25
+          "change_pct": 16.05,
+          "price": 187.14
         },
         {
-          "ticker": "BRO",
-          "name": "Brown & Brown",
-          "change_pct": 10.37,
-          "price": 69.4
+          "ticker": "ACN",
+          "name": "Accenture",
+          "change_pct": 15.04,
+          "price": 258.74
+        },
+        {
+          "ticker": "ROP",
+          "name": "Roper Technologies",
+          "change_pct": 14.06,
+          "price": 436.23
+        },
+        {
+          "ticker": "ALLE",
+          "name": "Allegion",
+          "change_pct": 13.34,
+          "price": 176.52
         }
       ],
       "losers": [
         {
-          "ticker": "CIEN",
-          "name": "Ciena",
-          "change_pct": -26.02,
-          "price": 332.73
+          "ticker": "FLEX",
+          "name": "Flex Ltd.",
+          "change_pct": -22.14,
+          "price": 76.69
         },
         {
           "ticker": "COHR",
           "name": "Coherent Corp.",
-          "change_pct": -25.5,
-          "price": 232.9
+          "change_pct": -17.07,
+          "price": 207.82
         },
         {
-          "ticker": "LITE",
-          "name": "Lumentum",
-          "change_pct": -25.31,
-          "price": 824.13
+          "ticker": "LRCX",
+          "name": "Lam Research",
+          "change_pct": -17.05,
+          "price": 230.15
         },
         {
-          "ticker": "HPE",
-          "name": "Hewlett Packard Enterprise",
-          "change_pct": -24.95,
-          "price": 55.13
+          "ticker": "KLAC",
+          "name": "KLA Corporation",
+          "change_pct": -15.26,
+          "price": 147.83
         },
         {
-          "ticker": "SKYD",
-          "name": "Skydance Corporation",
-          "change_pct": -24.56,
-          "price": 6.91
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "change_pct": -14.32,
+          "price": 202.63
         }
       ]
     }
