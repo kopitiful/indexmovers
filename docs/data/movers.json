@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-24T00:07:58.007928+00:00",
+  "last_update": "2026-10-24T13:53:21.309023+00:00",
   "indices": {
     "dax": {
       "label": "DAX",
@@ -9,64 +9,64 @@
         {
           "ticker": "QIA.DE",
           "name": "Qiagen",
-          "change_pct": 9.25,
-          "price": 44.94
-        },
-        {
-          "ticker": "G24.DE",
-          "name": "Scout24",
-          "change_pct": 8.07,
-          "price": 85.7
+          "change_pct": 9.8,
+          "price": 45.05
         },
         {
           "ticker": "SAP.DE",
           "name": "SAP",
-          "change_pct": 7.01,
-          "price": 215.35
+          "change_pct": 7.62,
+          "price": 214.4
         },
         {
           "ticker": "ZAL.DE",
           "name": "Zalando",
-          "change_pct": 5.47,
-          "price": 26.23
+          "change_pct": 6.22,
+          "price": 26.82
+        },
+        {
+          "ticker": "G24.DE",
+          "name": "Scout24",
+          "change_pct": 5.79,
+          "price": 84.95
         },
         {
           "ticker": "EOAN.DE",
           "name": "E.ON",
-          "change_pct": 4.67,
-          "price": 18.36
+          "change_pct": 3.89,
+          "price": 18.55
         }
       ],
       "losers": [
         {
           "ticker": "ENR.DE",
           "name": "Siemens Energy",
-          "change_pct": -7.68,
-          "price": 122.2
+          "change_pct": -12.08,
+          "price": 118.68
         },
         {
           "ticker": "MTX.DE",
           "name": "MTU Aero Engines",
-          "change_pct": -5.72,
-          "price": 332.8
-        },
-        {
-          "ticker": "SIE.DE",
-          "name": "Siemens",
-          "change_pct": -5.52,
-          "price": 255.7
+          "change_pct": -10.26,
+          "price": 316.7
         },
         {
           "ticker": "IFX.DE",
           "name": "Infineon Technologies",
-          "change_pct": -4.93,
-          "price": 49.88
+          "change_pct": -7.1,
+          "price": 48.67
         },
         {
-          "ticker": "CBK.DE",
-          "name": "Commerzbank",
-          "change_pct": -4.88,
-          "price": 35.86
+          "ticker": "RHM.DE",
+          "name": "Rheinmetall",
+          "change_pct": -6.53,
+          "price": 1019.0
+        },
+        {
+          "ticker": "RWE.DE",
+          "name": "RWE",
+          "change_pct": -5.79,
+          "price": 55.62
         }
       ]
     },
@@ -78,64 +78,64 @@
         {
           "ticker": "EL.PA",
           "name": "EssilorLuxottica",
-          "change_pct": 19.13,
-          "price": 177.15
+          "change_pct": 17.36,
+          "price": 181.2
         },
         {
           "ticker": "SAP.DE",
           "name": "SAP",
-          "change_pct": 7.01,
-          "price": 215.35
+          "change_pct": 7.62,
+          "price": 214.4
         },
         {
-          "ticker": "WKL.AS",
-          "name": "Wolters Kluwer",
-          "change_pct": 6.61,
-          "price": 86.8
+          "ticker": "ARGX.BR",
+          "name": "Argenx",
+          "change_pct": 7.5,
+          "price": 782.2
         },
         {
-          "ticker": "BMW.DE",
-          "name": "BMW",
-          "change_pct": 4.28,
-          "price": 57.48
+          "ticker": "OR.PA",
+          "name": "L'Oréal",
+          "change_pct": 7.09,
+          "price": 436.3
         },
         {
-          "ticker": "ABI.BR",
-          "name": "Anheuser-Busch InBev",
-          "change_pct": 3.98,
-          "price": 75.82
+          "ticker": "ENI.MI",
+          "name": "Eni",
+          "change_pct": 6.53,
+          "price": 27.65
         }
       ],
       "losers": [
         {
-          "ticker": "SU.PA",
-          "name": "Schneider Electric",
-          "change_pct": -8.62,
-          "price": 235.75
+          "ticker": "SAF.PA",
+          "name": "Safran",
+          "change_pct": -14.26,
+          "price": 271.8
+        },
+        {
+          "ticker": "NOKIA.HE",
+          "name": "Nokia",
+          "change_pct": -12.49,
+          "price": 7.37
         },
         {
           "ticker": "ENR.DE",
           "name": "Siemens Energy",
-          "change_pct": -7.68,
-          "price": 122.2
+          "change_pct": -12.08,
+          "price": 118.68
         },
         {
-          "ticker": "BNP.PA",
-          "name": "BNP Paribas",
-          "change_pct": -7.16,
-          "price": 82.57
+          "ticker": "SU.PA",
+          "name": "Schneider Electric",
+          "change_pct": -8.65,
+          "price": 231.4
         },
         {
-          "ticker": "PRX.AS",
-          "name": "Prosus",
-          "change_pct": -5.62,
-          "price": 33.93
-        },
-        {
-          "ticker": "SIE.DE",
-          "name": "Siemens",
-          "change_pct": -5.52,
-          "price": 255.7
+          "ticker": "RMS.PA",
+          "name": "Hermès",
+          "change_pct": -7.4,
+          "price": 1238.5
         }
       ]
     },
@@ -147,64 +147,64 @@
         {
           "ticker": "HAS",
           "name": "Hasbro",
-          "change_pct": 19.12,
-          "price": 117.23
+          "change_pct": 18.91,
+          "price": 117.44
         },
         {
-          "ticker": "EFX",
-          "name": "Equifax",
-          "change_pct": 16.05,
-          "price": 187.14
-        },
-        {
-          "ticker": "ACN",
-          "name": "Accenture",
-          "change_pct": 15.04,
-          "price": 258.74
+          "ticker": "CRL",
+          "name": "Charles River Laboratories",
+          "change_pct": 15.07,
+          "price": 345.37
         },
         {
           "ticker": "ROP",
           "name": "Roper Technologies",
-          "change_pct": 14.06,
-          "price": 436.23
+          "change_pct": 14.48,
+          "price": 438.14
         },
         {
           "ticker": "ALLE",
           "name": "Allegion",
-          "change_pct": 13.34,
-          "price": 176.52
+          "change_pct": 14.33,
+          "price": 178.98
+        },
+        {
+          "ticker": "CRWD",
+          "name": "CrowdStrike",
+          "change_pct": 13.27,
+          "price": 257.57
         }
       ],
       "losers": [
         {
-          "ticker": "FLEX",
-          "name": "Flex Ltd.",
-          "change_pct": -22.14,
-          "price": 76.69
+          "ticker": "FIX",
+          "name": "Comfort Systems USA",
+          "change_pct": -19.33,
+          "price": 1160.86
         },
         {
-          "ticker": "COHR",
-          "name": "Coherent Corp.",
-          "change_pct": -17.07,
-          "price": 207.82
+          "ticker": "HWM",
+          "name": "Howmet Aerospace",
+          "change_pct": -15.86,
+          "price": 185.91
+        },
+        {
+          "ticker": "FLEX",
+          "name": "Flex Ltd.",
+          "change_pct": -15.38,
+          "price": 76.55
+        },
+        {
+          "ticker": "PWR",
+          "name": "Quanta Services",
+          "change_pct": -13.52,
+          "price": 546.43
         },
         {
           "ticker": "LRCX",
           "name": "Lam Research",
-          "change_pct": -17.05,
-          "price": 230.15
-        },
-        {
-          "ticker": "KLAC",
-          "name": "KLA Corporation",
-          "change_pct": -15.26,
-          "price": 147.83
-        },
-        {
-          "ticker": "MRNA",
-          "name": "Moderna",
-          "change_pct": -14.32,
-          "price": 202.63
+          "change_pct": -12.82,
+          "price": 230.1
         }
       ]
     }
