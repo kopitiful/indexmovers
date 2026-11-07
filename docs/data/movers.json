@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-07T01:26:42.571233+00:00",
+  "last_update": "2026-11-07T16:10:32.501296+00:00",
   "indices": {
     "dax": {
       "label": "DAX",
@@ -7,66 +7,66 @@
       "constituents_count": 40,
       "winners": [
         {
-          "ticker": "BAYN.DE",
-          "name": "Bayer",
-          "change_pct": 17.22,
-          "price": 56.22
-        },
-        {
           "ticker": "HEI.DE",
           "name": "Heidelberg Materials",
-          "change_pct": 15.77,
-          "price": 175.05
+          "change_pct": 15.52,
+          "price": 173.8
+        },
+        {
+          "ticker": "BAYN.DE",
+          "name": "Bayer",
+          "change_pct": 9.89,
+          "price": 55.58
         },
         {
           "ticker": "FRE.DE",
           "name": "Fresenius",
-          "change_pct": 10.36,
-          "price": 51.87
+          "change_pct": 9.8,
+          "price": 52.48
         },
         {
-          "ticker": "G24.DE",
-          "name": "Scout24",
-          "change_pct": 8.88,
-          "price": 90.15
+          "ticker": "CON.DE",
+          "name": "Continental",
+          "change_pct": 5.65,
+          "price": 70.34
         },
         {
-          "ticker": "HNR1.DE",
-          "name": "Hannover Re",
-          "change_pct": 7.81,
-          "price": 306.4
+          "ticker": "MTX.DE",
+          "name": "MTU Aero Engines",
+          "change_pct": 5.28,
+          "price": 346.7
         }
       ],
       "losers": [
         {
           "ticker": "RHM.DE",
           "name": "Rheinmetall",
-          "change_pct": -19.72,
-          "price": 841.5
-        },
-        {
-          "ticker": "ENR.DE",
-          "name": "Siemens Energy",
-          "change_pct": -16.47,
-          "price": 113.84
+          "change_pct": -21.68,
+          "price": 812.7
         },
         {
           "ticker": "IFX.DE",
           "name": "Infineon Technologies",
-          "change_pct": -14.92,
-          "price": 45.95
+          "change_pct": -9.5,
+          "price": 45.76
         },
         {
-          "ticker": "RWE.DE",
-          "name": "RWE",
-          "change_pct": -2.76,
-          "price": 57.06
+          "ticker": "ENR.DE",
+          "name": "Siemens Energy",
+          "change_pct": -6.95,
+          "price": 118.1
         },
         {
-          "ticker": "SIE.DE",
-          "name": "Siemens",
-          "change_pct": -0.18,
-          "price": 273.25
+          "ticker": "BNR.DE",
+          "name": "Brenntag",
+          "change_pct": -2.15,
+          "price": 61.9
+        },
+        {
+          "ticker": "MRK.DE",
+          "name": "Merck",
+          "change_pct": -1.69,
+          "price": 148.75
         }
       ]
     },
@@ -78,64 +78,64 @@
         {
           "ticker": "BAYN.DE",
           "name": "Bayer",
-          "change_pct": 17.22,
-          "price": 56.22
-        },
-        {
-          "ticker": "SAN.PA",
-          "name": "Sanofi",
-          "change_pct": 11.0,
-          "price": 84.53
+          "change_pct": 9.89,
+          "price": 55.58
         },
         {
           "ticker": "PRX.AS",
           "name": "Prosus",
-          "change_pct": 10.83,
-          "price": 38.02
+          "change_pct": 9.52,
+          "price": 37.56
         },
         {
-          "ticker": "RMS.PA",
-          "name": "Hermès",
-          "change_pct": 9.56,
-          "price": 1387.0
+          "ticker": "SGO.PA",
+          "name": "Saint-Gobain",
+          "change_pct": 9.16,
+          "price": 74.1
         },
         {
           "ticker": "ADYEN.AS",
           "name": "Adyen",
-          "change_pct": 9.39,
-          "price": 892.5
+          "change_pct": 8.99,
+          "price": 901.2
+        },
+        {
+          "ticker": "BBVA.MC",
+          "name": "BBVA",
+          "change_pct": 7.93,
+          "price": 22.73
         }
       ],
       "losers": [
         {
           "ticker": "RHM.DE",
           "name": "Rheinmetall",
-          "change_pct": -19.72,
-          "price": 841.5
+          "change_pct": -21.68,
+          "price": 812.7
         },
         {
           "ticker": "NOKIA.HE",
           "name": "Nokia",
-          "change_pct": -18.13,
-          "price": 6.85
-        },
-        {
-          "ticker": "ASML.AS",
-          "name": "ASML Holding",
-          "change_pct": -16.93,
-          "price": 1250.0
-        },
-        {
-          "ticker": "ENR.DE",
-          "name": "Siemens Energy",
-          "change_pct": -16.47,
-          "price": 113.84
+          "change_pct": -9.86,
+          "price": 6.98
         },
         {
           "ticker": "IFX.DE",
           "name": "Infineon Technologies",
-          "change_pct": -14.92,
-          "price": 45.95
+          "change_pct": -9.5,
+          "price": 45.76
+        },
+        {
+          "ticker": "ASML.AS",
+          "name": "ASML Holding",
+          "change_pct": -9.14,
+          "price": 1283.6
+        },
+        {
+          "ticker": "ENI.MI",
+          "name": "Eni",
+          "change_pct": -7.68,
+          "price": 25.05
         }
       ]
     },
@@ -147,64 +147,64 @@
         {
           "ticker": "APP",
           "name": "AppLovin",
-          "change_pct": 39.7,
-          "price": 356.1
+          "change_pct": 71.21,
+          "price": 391.22
         },
         {
           "ticker": "FISV",
           "name": "Fiserv",
-          "change_pct": 29.41,
-          "price": 62.74
-        },
-        {
-          "ticker": "MOS",
-          "name": "Mosaic Company (The)",
-          "change_pct": 22.49,
-          "price": 22.33
+          "change_pct": 25.71,
+          "price": 62.88
         },
         {
           "ticker": "IDXX",
           "name": "Idexx Laboratories",
-          "change_pct": 16.45,
-          "price": 670.71
+          "change_pct": 22.65,
+          "price": 676.04
         },
         {
-          "ticker": "CHTR",
-          "name": "Charter Communications",
-          "change_pct": 15.47,
-          "price": 125.86
+          "ticker": "MOS",
+          "name": "Mosaic Company (The)",
+          "change_pct": 21.59,
+          "price": 22.36
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "change_pct": 15.57,
+          "price": 189.99
         }
       ],
       "losers": [
         {
           "ticker": "LITE",
           "name": "Lumentum",
-          "change_pct": -44.57,
-          "price": 509.7
+          "change_pct": -35.94,
+          "price": 538.59
         },
         {
-          "ticker": "INTC",
-          "name": "Intel",
-          "change_pct": -43.25,
-          "price": 52.25
-        },
-        {
-          "ticker": "SNDK",
-          "name": "Sandisk",
-          "change_pct": -39.37,
-          "price": 806.43
+          "ticker": "STX",
+          "name": "Seagate Technology",
+          "change_pct": -28.48,
+          "price": 460.99
         },
         {
           "ticker": "MRVL",
           "name": "Marvell Technology",
-          "change_pct": -38.83,
-          "price": 133.55
+          "change_pct": -28.11,
+          "price": 141.2
         },
         {
-          "ticker": "DDOG",
-          "name": "Datadog",
-          "change_pct": -34.32,
-          "price": 174.6
+          "ticker": "WDC",
+          "name": "Western Digital",
+          "change_pct": -27.95,
+          "price": 263.78
+        },
+        {
+          "ticker": "SNDK",
+          "name": "Sandisk",
+          "change_pct": -27.44,
+          "price": 835.06
         }
       ]
     }
