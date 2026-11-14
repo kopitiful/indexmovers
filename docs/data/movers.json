@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-14T01:54:03.466186+00:00",
+  "last_update": "2026-11-14T16:26:28.213317+00:00",
   "indices": {
     "dax": {
       "label": "DAX",
@@ -9,64 +9,64 @@
         {
           "ticker": "ENR.DE",
           "name": "Siemens Energy",
-          "change_pct": 16.41,
-          "price": 132.52
+          "change_pct": 11.16,
+          "price": 131.28
         },
         {
           "ticker": "IFX.DE",
           "name": "Infineon Technologies",
-          "change_pct": 13.41,
-          "price": 52.11
+          "change_pct": 9.0,
+          "price": 49.88
         },
         {
-          "ticker": "CON.DE",
-          "name": "Continental",
-          "change_pct": 4.97,
-          "price": 74.3
+          "ticker": "SIE.DE",
+          "name": "Siemens",
+          "change_pct": 5.97,
+          "price": 279.4
         },
         {
-          "ticker": "AIR.PA",
-          "name": "Airbus",
-          "change_pct": 4.71,
-          "price": 208.25
+          "ticker": "ALV.DE",
+          "name": "Allianz",
+          "change_pct": 5.79,
+          "price": 477.2
         },
         {
-          "ticker": "MTX.DE",
-          "name": "MTU Aero Engines",
-          "change_pct": 3.9,
-          "price": 357.4
+          "ticker": "DTG.DE",
+          "name": "Daimler Truck",
+          "change_pct": 5.36,
+          "price": 42.66
         }
       ],
       "losers": [
         {
-          "ticker": "BNR.DE",
-          "name": "Brenntag",
-          "change_pct": -10.0,
-          "price": 57.44
+          "ticker": "PAH3.DE",
+          "name": "Porsche SE",
+          "change_pct": -6.62,
+          "price": 24.4
         },
         {
           "ticker": "RHM.DE",
           "name": "Rheinmetall",
-          "change_pct": -8.19,
-          "price": 772.6
+          "change_pct": -5.81,
+          "price": 765.5
         },
         {
-          "ticker": "PAH3.DE",
-          "name": "Porsche SE",
-          "change_pct": -7.09,
-          "price": 24.62
-        },
-        {
-          "ticker": "BMW.DE",
-          "name": "BMW",
-          "change_pct": -6.78,
-          "price": 57.18
+          "ticker": "BNR.DE",
+          "name": "Brenntag",
+          "change_pct": -5.23,
+          "price": 58.66
         },
         {
           "ticker": "FME.DE",
           "name": "Fresenius Medical Care",
-          "change_pct": -6.52,
-          "price": 39.56
+          "change_pct": -5.02,
+          "price": 40.11
+        },
+        {
+          "ticker": "VOW3.DE",
+          "name": "Volkswagen Group",
+          "change_pct": -3.38,
+          "price": 67.48
         }
       ]
     },
@@ -78,64 +78,64 @@
         {
           "ticker": "ENR.DE",
           "name": "Siemens Energy",
-          "change_pct": 16.41,
-          "price": 132.52
+          "change_pct": 11.16,
+          "price": 131.28
         },
         {
           "ticker": "IFX.DE",
           "name": "Infineon Technologies",
-          "change_pct": 13.41,
-          "price": 52.11
-        },
-        {
-          "ticker": "NOKIA.HE",
-          "name": "Nokia",
-          "change_pct": 11.57,
-          "price": 7.64
-        },
-        {
-          "ticker": "ASML.AS",
-          "name": "ASML Holding",
-          "change_pct": 10.14,
-          "price": 1376.8
+          "change_pct": 9.0,
+          "price": 49.88
         },
         {
           "ticker": "UCG.MI",
           "name": "UniCredit",
-          "change_pct": 9.15,
-          "price": 84.24
+          "change_pct": 8.96,
+          "price": 83.68
+        },
+        {
+          "ticker": "ARGX.BR",
+          "name": "Argenx",
+          "change_pct": 7.67,
+          "price": 878.4
+        },
+        {
+          "ticker": "SU.PA",
+          "name": "Schneider Electric",
+          "change_pct": 6.47,
+          "price": 243.45
         }
       ],
       "losers": [
         {
-          "ticker": "RHM.DE",
-          "name": "Rheinmetall",
-          "change_pct": -8.19,
-          "price": 772.6
-        },
-        {
-          "ticker": "BMW.DE",
-          "name": "BMW",
-          "change_pct": -6.78,
-          "price": 57.18
-        },
-        {
           "ticker": "EL.PA",
           "name": "EssilorLuxottica",
-          "change_pct": -6.28,
-          "price": 179.9
+          "change_pct": -5.91,
+          "price": 182.35
         },
         {
-          "ticker": "MBG.DE",
-          "name": "Mercedes-Benz Group",
-          "change_pct": -5.16,
-          "price": 40.69
+          "ticker": "RHM.DE",
+          "name": "Rheinmetall",
+          "change_pct": -5.81,
+          "price": 765.5
         },
         {
           "ticker": "PRX.AS",
           "name": "Prosus",
-          "change_pct": -4.34,
-          "price": 36.1
+          "change_pct": -4.25,
+          "price": 35.69
+        },
+        {
+          "ticker": "ADYEN.AS",
+          "name": "Adyen",
+          "change_pct": -3.78,
+          "price": 867.1
+        },
+        {
+          "ticker": "BMW.DE",
+          "name": "BMW",
+          "change_pct": -3.1,
+          "price": 57.52
         }
       ]
     },
@@ -145,34 +145,34 @@
       "constituents_count": 503,
       "winners": [
         {
-          "ticker": "ANET",
-          "name": "Arista Networks",
-          "change_pct": 29.83,
-          "price": 206.63
-        },
-        {
-          "ticker": "LITE",
-          "name": "Lumentum",
-          "change_pct": 22.55,
-          "price": 624.65
-        },
-        {
-          "ticker": "BE",
-          "name": "Bloom Energy",
-          "change_pct": 20.54,
-          "price": 201.93
-        },
-        {
-          "ticker": "VST",
-          "name": "Vistra Corp.",
-          "change_pct": 19.15,
-          "price": 134.51
-        },
-        {
           "ticker": "AMD",
           "name": "Advanced Micro Devices",
           "change_pct": 18.93,
           "price": 534.06
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "change_pct": 18.16,
+          "price": 347.01
+        },
+        {
+          "ticker": "CHTR",
+          "name": "Charter Communications",
+          "change_pct": 17.21,
+          "price": 138.39
+        },
+        {
+          "ticker": "MPWR",
+          "name": "Monolithic Power Systems",
+          "change_pct": 16.81,
+          "price": 1390.54
+        },
+        {
+          "ticker": "ANET",
+          "name": "Arista Networks",
+          "change_pct": 15.51,
+          "price": 197.29
         }
       ],
       "losers": [
@@ -189,6 +189,12 @@
           "price": 162.85
         },
         {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "change_pct": -12.12,
+          "price": 223.37
+        },
+        {
           "ticker": "DVA",
           "name": "DaVita",
           "change_pct": -8.77,
@@ -199,12 +205,6 @@
           "name": "NVR, Inc.",
           "change_pct": -7.06,
           "price": 5853.92
-        },
-        {
-          "ticker": "SMCI",
-          "name": "Supermicro",
-          "change_pct": -6.57,
-          "price": 26.87
         }
       ]
     }
